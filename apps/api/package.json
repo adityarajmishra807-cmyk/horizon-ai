@@ -8,9 +8,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@horizon/ai": "workspace:*",
-    "@horizon/core": "workspace:*",
-    "@horizon/db": "workspace:*",
+    "@horizon/ai": "0.1.0",
+    "@horizon/core": "0.1.0",
+    "@horizon/db": "0.1.0",
     "cors": "latest",
     "dotenv": "latest",
     "express": "latest"
