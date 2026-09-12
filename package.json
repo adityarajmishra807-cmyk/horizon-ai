@@ -6,7 +6,8 @@
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
     "dev": "npm run dev --workspace @horizon/web",
-    "build": "npm run build --workspaces --if-present",
+    "build": "npm run build --workspace @horizon/web",
+    "build:all": "npm run build --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present"
   }
